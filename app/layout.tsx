@@ -29,6 +29,12 @@ export default function RootLayout({
             <li>
               <Link href="/page2">Page 2</Link>
             </li>
+            <li>
+              <Link href="/post/foo">Post foo</Link>
+            </li>
+            <li>
+              <Link href="/post/bar">Post bar</Link>
+            </li>
           </ul>
         </nav>
         {children}
