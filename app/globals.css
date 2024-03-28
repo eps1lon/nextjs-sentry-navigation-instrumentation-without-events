@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+a:link {
+  text-decoration: underline;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
